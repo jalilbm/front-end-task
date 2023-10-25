@@ -1,0 +1,18 @@
+.primary-button {
+	height: 40px;
+	width: 120px;
+	border: none;
+	cursor: pointer;
+	background-color: var(--button-bg);
+	color: var(--button-text);
+	font-weight: bold;
+	transition:
+		background-color 0.3s ease,
+		color 0.3s ease;
+
+	&:hover {
+		background-color: #fefefe;
+		border: 1px solid var(--button-hover-border);
+		color: #333333;
+	}
+}

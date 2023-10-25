@@ -1,0 +1,167 @@
+.App {
+	min-height: 100vh;
+}
+.toggle-button-container {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1000;
+}
+:root {
+	.mx-auto {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.w-full {
+		width: 100%;
+	}
+
+	/* Flex Container */
+	.flex {
+		display: flex;
+	}
+
+	/* Justify Content */
+	.justify-start {
+		justify-content: flex-start;
+	}
+
+	.justify-end {
+		justify-content: flex-end;
+	}
+
+	.justify-center {
+		justify-content: center;
+	}
+
+	.justify-between {
+		justify-content: space-between;
+	}
+
+	.justify-around {
+		justify-content: space-around;
+	}
+
+	/* Align Items */
+	.items-start {
+		align-items: flex-start;
+	}
+
+	.items-end {
+		align-items: flex-end;
+	}
+
+	.items-center {
+		align-items: center;
+	}
+
+	.container {
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 16px;
+		padding-left: 16px;
+	}
+
+	/* Container Breakpoints */
+	@media (min-width: 640px) {
+		.container {
+			max-width: 640px;
+		}
+	}
+
+	@media (min-width: 768px) {
+		.container {
+			max-width: 768px;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		.container {
+			max-width: 1024px;
+		}
+	}
+
+	@media (min-width: 1280px) {
+		.container {
+			max-width: 1280px;
+		}
+	}
+
+	/* Rounded Corners */
+	.rounded {
+		border-radius: 8px;
+	}
+
+	.rounded-lg {
+		border-radius: 18px;
+	}
+
+	.rounded-full {
+		border-radius: 9999px;
+	}
+
+	.rounded-t-full {
+		border-top-left-radius: 9999px;
+		border-top-right-radius: 9999px;
+	}
+
+	/* Shadow */
+	.shadowed {
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+
+	/* Padding */
+
+	.p-1 {
+		padding: 0.25rem; /* 4px */
+	}
+
+	.p-2 {
+		padding: 0.5rem; /* 8px */
+	}
+
+	.p-3 {
+		padding: 0.75rem; /* 12px */
+	}
+
+	.p-4 {
+		padding: 1rem; /* 16px */
+	}
+
+	/* Padding X-axis */
+
+	.px-1 {
+		padding-left: 0.25rem;
+		padding-right: 0.25rem;
+	}
+
+	.px-2 {
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+	.px-3 {
+		padding-left: 0.75rem;
+		padding-right: 0.75rem;
+	}
+	.px-4 {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	/* Light theme */
+	--primary-bg-light: #fefefe;
+	--secondary-bg-light: #f7f7f7;
+	--primary-text-light: #333333;
+	--primary-border-color-light: #f1c40e;
+	--primary-component-bg-light: #f1c40e;
+	--primary-component-text-light: #fefefe;
+
+	/* Dark theme */
+	--primary-bg-dark: #121212;
+	--secondary-bg-dark: #2e2e2e;
+	--primary-text-dark: #fefefe;
+	--primary-border-color-dark: red;
+	--primary-component-bg-dark: red;
+	--primary-component-text-dark: #fefefe;
+}
